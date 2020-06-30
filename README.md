@@ -3,7 +3,9 @@ Um programa que faz uma conexão entra 2 computadores, onde um deles irá contro
 
 # Como utilizar
 Execute em um dos computadores o main com o parâmetro -l (listen) com o ip e a porta
+
 Depois, no computador que irá controlar o terminal, execute o main com o parâmetro -c (connect) com o ip e a porta após
+
 Para todos os parâmetros, use o -h
 
 # Erros
