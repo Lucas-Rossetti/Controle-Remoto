@@ -6,14 +6,18 @@ o = ['-l', '-c', '-h']
 d = ["Listen. Esse parâmetro fala para ele definir esse computador como servidor", "Connect. Ele se conecta a outro computador, server, para controlar", "Help. Mostra essa interface de ajuda"]
 
 # Vê se todas as opções estão presentes
-try:
-    sys.argv[1]
-    sys.argv[2]
-    sys.argv[3]
+if sys.argv[1] == "-h":
+    pass
 
-except:
-    print("Erro 3")
-    exit()
+else:
+    try:
+        sys.argv[1]
+        sys.argv[2]
+        sys.argv[3]
+
+    except:
+        print("Erro 3")
+        exit()
 
 # Vê as opções
 # Se a opção for de help
